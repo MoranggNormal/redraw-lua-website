@@ -9,8 +9,8 @@ const HEADER = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1.3rem;
-  background-color: #1f3c88;
-  box-shadow: 0px 1px 2px 1px #ccc;
+  background: rgba( 31, 60, 136, 0.90 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   font-family: 'Open Sans', sans-serif;
 
 `

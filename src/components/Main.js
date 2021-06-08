@@ -6,12 +6,16 @@ width: 75vw;
 height: 68vh;
 margin: 3rem auto;
 padding: 1rem;
-background-color: #1f3c88;
+background: rgba( 5, 27, 90, 0.55 );
+
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.0px );
+-webkit-backdrop-filter: blur( 3.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 color: #232323;
 font-family: 'Open Sans', sans-serif;
 font-weight: 200;
-border-radius: 2px;
-box-shadow: 0px 0px 1px 2px #ccc;
 display: flex;
 `
 
