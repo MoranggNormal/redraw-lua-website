@@ -49,7 +49,7 @@ const Home = () => {
     </TEXT>
 
 
-      <Link className="HomeLink" to="get-started">Get started by now, Click here!</Link>
+      <Link className="HomeLink" to="get-started">Get started by now, <span style={{borderBottom: '1px solid #F2F2F2'}}>Click here!</span></Link>
    </SECTION>
 
     </MAIN>
