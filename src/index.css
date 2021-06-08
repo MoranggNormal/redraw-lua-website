@@ -20,9 +20,16 @@ body{
   margin: 0.3rem;
   color: #F2F2F2;
   transition: 0.3s;
+  font-weight: 600;
 }
 
-.link:hover{
+.HomeLink{
+  color: #F2F2F2;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.link:hover, .HomeLink:hover{
   color: #b8b5ff;
 }
 
