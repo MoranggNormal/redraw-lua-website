@@ -2,11 +2,6 @@ import styled from 'styled-components'
 import { Link, NavLink } from 'react-router-dom'
 import logo from '../assets/images/lua.svg'
 
-const IMG = styled.img`
-  width: 5rem;
-  height: 5rem;
-  margin-left: 3.3rem;
-`
 
 const HEADER = styled.header`
   width: 100vw;
@@ -14,9 +9,17 @@ const HEADER = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1.3rem;
-  background-color: #F2F2F2;
+  background-color: #1f3c88;
   box-shadow: 0px 1px 2px 1px #ccc;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 
+`
+
+const IMG = styled.img`
+width: 5rem;
+height: 5rem;
+margin-left: 3.3rem;
 `
 
 const NAV = styled.nav`
