@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -16,10 +18,29 @@ body{
   fontSize: 1rem;
   padding: 0.7rem 1rem;
   margin: 0.3rem;
-  color: #2541b2;
+  color: #F2F2F2;
   transition: 0.3s;
 }
 
 .link:hover{
-  color: #03256c;
+  color: #b8b5ff;
+}
+
+
+.load{
+  width: 13rem;
+  height: 13rem;
+  border-left: 5px solid #f4f9f9;
+  border-radius: 50%;
+  animation: loading 1s linear 0s infinite normal forwards;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
