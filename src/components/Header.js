@@ -36,6 +36,7 @@ const Header = () => {
     <Link to="/"> <IMG src={logo} alt="lua icon" /> </Link>
 
     <NAV>
+      <NavLink to="/" className="link">Home</NavLink>
     <NavLink to="about" className="link" activeStyle={ACTIVE}>About</NavLink>
     <NavLink to="news" className="link" activeStyle={ACTIVE}>News</NavLink>
     <NavLink to="get-started" className="link" activeStyle={ACTIVE}>Get started</NavLink>
