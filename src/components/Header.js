@@ -8,8 +8,8 @@ const HEADER = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.3rem;
-  background: rgba( 31, 60, 136, 0.90 );
+  padding: 0.8rem;
+  background: rgba( 31, 60, 136, 0.95 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   font-family: 'Open Sans', sans-serif;
 
@@ -28,7 +28,7 @@ const NAV = styled.nav`
 
 const ACTIVE = {
   color: '#03256c',
-  borderBottom: '1px solid #03256c'
+  textDecoration: 'underline'
 }
 
 const Header = () => {
