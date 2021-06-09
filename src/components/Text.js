@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const TEXT = styled.p`
   font-size: 1.1rem;
-  color: #F2F2F2;
+  color: #142850;
   font-weight: 400;
 `
 
