@@ -10,7 +10,7 @@ const HEADER = styled.header`
   align-items: center;
   padding: 0.8rem;
   background: rgba( 31, 60, 136, 0.95 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 4px 14px 0 rgba( 31, 38, 135, 0.37 );
   font-family: 'Open Sans', sans-serif;
 
 `

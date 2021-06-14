@@ -7,7 +7,7 @@ const MAIN = styled.main`
   margin: 3rem auto;
   padding: 1rem;
   background: rgba( 216, 227, 231, 0.10 );
-  box-shadow: 0 8px 16px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 0px 14px 2px rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
